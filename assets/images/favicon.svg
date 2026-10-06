@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Dark Background Bezel -->
+  <rect width="64" height="64" rx="18" fill="#0F172A"/>
+  <rect x="2" y="2" width="60" height="60" rx="16" stroke="url(#favicon-bezel-grad)" stroke-width="3"/>
+  
+  <!-- Pulse Telemetry Heartbeat Wave -->
+  <path d="M12 32H20L25 20L31 44L37 26L41 32H52" stroke="url(#favicon-pulse-grad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Tech Core Dot -->
+  <circle cx="32" cy="32" r="3.5" fill="#60A5FA"/>
+
+  <!-- Active Telemetry Green Status Dot -->
+  <circle cx="50" cy="14" r="4.5" fill="#10B981" stroke="#0F172A" stroke-width="1.5"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="favicon-bezel-grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="favicon-pulse-grad" x1="0" y1="0" x2="64" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+</svg>
